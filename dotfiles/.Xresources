@@ -1,0 +1,59 @@
+!{{{ URXVT
+!
+! General
+urxvt*termName:           rxvt-unicode-256color
+urxvt*scrollBar:         false
+urxvt*secondaryScroll:    true
+urxvt*saveLines:         65535
+urxvt*cursorBlink:       false
+!urxvt*cursorUnderline:   true
+urxvt*urgentOnBell:       true
+!urxvt*override-redirect:false
+!urxvt*borderLess:       false
+!urxvt*internalBorder:       0
+!urxvt*externalBorder:       0
+!
+! Extensions
+urxvt*perl-lib:        /usr/lib/urxvt/perl/
+urxvt*perl-ext-common: default,matcher,searchable-scrollback
+urxvt*perl-ext:        default,url-select
+urxvt*kesym.M-u:       perl:url-select:select_next
+urxvt*urlLauncher:     /usr/local/bin/firefox
+urxvt*matcher.button:  1
+! Catch ugly URLs
+urxvt*cutchars:        '"'()*<>[]{|}
+!
+! Appearance
+urxvt*font:     -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
+urxvt*boldFont: -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-iso8859-2
+!
+! Cursor
+urxvt*cursorColor: #DCDCCC
+! URLs
+urxvt*.colorUL:    #ffffff
+!
+! Pseudo Transparency
+urxvt*shading:    30
+urxvt*transparent:true
+!
+! Colors
+urxvt*background: #020202
+urxvt*foreground: #999999
+urxvt*color0:  #282a2b
+urxvt*color8:  #2c2f30
+urxvt*color1:  #ac357e
+urxvt*color9:  #df45a4
+urxvt*color2:  #65ac35
+urxvt*color10: #54d706
+urxvt*color3:  #a8ac35
+urxvt*color11: #dadf45
+urxvt*color4:  #18618f
+urxvt*color12: #0b78af
+urxvt*color5:  #666699
+urxvt*color13: #8888cc
+urxvt*color6:  #8caff0
+urxvt*color14: #9bbaf1
+urxvt*color7:  #a8a8a8
+urxvt*color15: #f0f0f0
+!}}}
+
